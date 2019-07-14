@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+}*/
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	text-align: center;
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +61,65 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.nav {
+	margin: 5px 50px;
+	text-align: center;
+	padding: 0;
+	display: inline-block;
+  }
+
+  h1 {
+	  font-size: 5em;
+  }
+
+  .header {
+	margin: 5px 50px;
+	text-align: center;
+	padding-top: 40px;
+	padding-right: 60px;
+	padding-left: 40px;
+	display: inline-block;  
+  }
+  .border {
+	border-bottom: 1px solid grey;
+	padding: 20px;
+  }
+
+  .features {
+	text-align: left;
+	width: 450px;
+	border: 0px;
+	padding: 0px;
+	margin: 30px;
+	display: inline-block;
+  }
+
+  .middle-img {
+	width: 900px; 
+  }
+
+  .bottom-content {
+	text-align: left;
+	width: 250px;
+	border: 0px;
+	padding: 0px;
+	margin: 30px;
+	display: inline-block;
+  }
+
+  address {
+	text-align: left;
+	width: 250px;
+	border: 0px;
+	padding: 0px;
+	margin: 30px;  
+  }
+
+  
+
+  
